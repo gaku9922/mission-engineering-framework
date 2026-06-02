@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from typing import Callable
-from capabilities.base import Capability
-from missions.mission import Mission
+from capabilities import Capability
+from missions import Mission
 
 @dataclass
 class MOE:

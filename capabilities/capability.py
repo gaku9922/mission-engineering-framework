@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from resources.base import Resource
+from resources import Resource
 
 
 @dataclass
